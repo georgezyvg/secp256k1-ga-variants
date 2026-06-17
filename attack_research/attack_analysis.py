@@ -335,7 +335,7 @@ def main():
         pubkey_y = int(sys.argv[2], 16)
     else:
         # Example public key (generator point)
-        pubkey_x = 0x79BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798
+        pubkey_x = 0x5cd1854cae45391ca4ec428cc7e6c7d9984424b954209a8eea197b9e364c05f6
         pubkey_y = 0x483ADA7726A3C4655DA4FBFC0E1108A8FD17B448A68554199C47D08FFB10D4B8
         
         print("\nUsage: python attack.py <pubkey_x_hex> <pubkey_y_hex>")
