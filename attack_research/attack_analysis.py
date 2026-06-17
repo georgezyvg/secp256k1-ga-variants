@@ -261,8 +261,8 @@ def attack_production(pubkey_x: int, pubkey_y: int, max_workers: Optional[int] =
     print(f"\nPattern detected: [{pattern_str}]")
     
     # Set up search ranges - REASONABLE SIZE
-    max_diff = 1 << 20  # Start with 2^20 for testing, not 2^42
-    print(f"\nSearch range: ±2^20 (can increase if needed)")
+    max_diff = 1 << 20  # Start with 2^160 for testing, not 2^42
+    print(f"\nSearch range: ±2^160 (can increase if needed)")
     
     # Split search space across workers
     worker_args = []
